@@ -1,11 +1,9 @@
 fileFormatVersion: 2
-guid: 17197a703d989b84995be17740fb4b6f
-timeCreated: 1495492908
+guid: 2b3a0c595e88123478c4635b9ec2e932
+timeCreated: 1495490487
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: StartIcon2_0
-    21300002: StartIcon2_1
+  fileIDToRecycleName: {}
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -70,33 +68,7 @@ TextureImporter:
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: StartIcon2_0
-      rect:
-        serializedVersion: 2
-        x: 45
-        y: 100
-        width: 110
-        height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: StartIcon2_1
-      rect:
-        serializedVersion: 2
-        x: 46
-        y: 38
-        width: 108
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
+    sprites: []
     outline: []
   spritePackingTag: 
   userData: 
