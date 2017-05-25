@@ -9,5 +9,5 @@ EditorBuildSettings:
     path: Assets/StartingMenuScene.unity
     guid: 5fb04999a497f2f4eba55fed058afb21
   - enabled: 1
-    path: Assets/Unity UI Sample/Scenes/Controls.unity
+    path: Assets/CharacterCreationScene.unity
     guid: 00000000000000000000000000000000
