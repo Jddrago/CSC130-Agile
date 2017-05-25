@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/DemoChar.unity
+- path: Assets/StartingMenuScene.unity
   isLoaded: 1
   isActive: 1
