@@ -10,4 +10,7 @@ EditorBuildSettings:
     guid: 5fb04999a497f2f4eba55fed058afb21
   - enabled: 1
     path: Assets/CharacterCreationScene.unity
+    guid: 16ee6ed4f4b64924c994877faacde7c7
+  - enabled: 1
+    path: Assets/DemoChar.unity
     guid: 00000000000000000000000000000000
