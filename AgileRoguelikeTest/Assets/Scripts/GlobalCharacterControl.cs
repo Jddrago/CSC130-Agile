@@ -5,10 +5,13 @@ using UnityEngine;
 public class GlobalCharacterControl : MonoBehaviour {
 
     public static GlobalCharacterControl Instance;
-    public GameObject Char;
+    [SerializeField]
+    public GameObject Character;
+    public int tester;
 
     void Awake()
     {
+        Debug.Log(Instance);
         if (Instance == null)
         {
             DontDestroyOnLoad(gameObject);
@@ -16,12 +19,18 @@ public class GlobalCharacterControl : MonoBehaviour {
         }
         else if (Instance != this)
         {
+            Debug.Log(Character.GetComponent<SpriteRenderer>().sprite);
             Destroy(gameObject);
         }
     }
 
+    private void Start()
+    {
+        //Debug.Log("Rawr");
+    }
+
     private void OnDestroy()
     {
-        Debug.Log("Global character destroyed.");
+        //Debug.Log("Global character destroyed.");
     }
 }

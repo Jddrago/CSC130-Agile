@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class PlayerControl : MonoBehaviour {
 
+    [SerializeField]
     public GameObject Char;
 
 	// Use this for initialization
 	void Start () {
-        Char = GlobalCharacterControl.Instance.Char;
+        Char.GetComponent<SpriteRenderer>().sprite = GlobalCharacterControl.Instance.Character.GetComponent<SpriteRenderer>().sprite;
 	}
 	
 	// Update is called once per frame
@@ -18,7 +19,12 @@ public class PlayerControl : MonoBehaviour {
 
     public void SaveToGlobal()
     {
-        GlobalCharacterControl.Instance.Char = Char;
+        Debug.Log(Char.GetComponent<SpriteRenderer>().sprite);
+        GlobalCharacterControl.Instance.Character.GetComponent<SpriteRenderer>().sprite = Char.GetComponent<SpriteRenderer>().sprite;
+        Debug.Log(GlobalCharacterControl.Instance.Character.GetComponent<SpriteRenderer>().sprite);
+        Debug.Log(GlobalCharacterControl.Instance);
+        GlobalCharacterControl.Instance.tester = 5;
+        //DontDestroyOnLoad(GlobalCharacterControl.Instance.Char);
     }
 
 }
