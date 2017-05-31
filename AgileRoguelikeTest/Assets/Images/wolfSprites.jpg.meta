@@ -1,9 +1,61 @@
 fileFormatVersion: 2
 guid: e926c0854ab04674e82ce624592d2222
-timeCreated: 1496182603
+timeCreated: 1496269425
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: wolfSprites_0
+    21300002: wolfSprites_1
+    21300004: wolfSprites_2
+    21300006: wolfSprites_3
+    21300008: wolfSprites_4
+    21300010: wolfSprites_5
+    21300012: wolfSprites_6
+    21300014: wolfSprites_7
+    21300016: wolfSprites_8
+    21300018: wolfSprites_9
+    21300020: wolfSprites_10
+    21300022: wolfSprites_11
+    21300024: wolfSprites_12
+    21300026: wolfSprites_13
+    21300028: wolfSprites_14
+    21300030: wolfSprites_15
+    21300032: wolfSprites_16
+    21300034: wolfSprites_17
+    21300036: wolfSprites_18
+    21300038: wolfSprites_19
+    21300040: wolfSprites_20
+    21300042: wolfSprites_21
+    21300044: wolfSprites_22
+    21300046: wolfSprites_23
+    21300048: wolfSprites_24
+    21300050: wolfSprites_25
+    21300052: wolfSprites_26
+    21300054: wolfSprites_27
+    21300056: wolfSprites_28
+    21300058: wolfSprites_29
+    21300060: wolfSprites_30
+    21300062: wolfSprites_31
+    21300064: wolfSprites_32
+    21300066: wolfSprites_33
+    21300068: wolfSprites_34
+    21300070: wolfSprites_35
+    21300072: wolfSprites_36
+    21300074: wolfSprites_37
+    21300076: wolfSprites_38
+    21300078: wolfSprites_39
+    21300080: wolfSprites_40
+    21300082: wolfSprites_41
+    21300084: wolfSprites_42
+    21300086: wolfSprites_43
+    21300088: wolfSprites_44
+    21300090: wolfSprites_45
+    21300092: wolfSprites_46
+    21300094: wolfSprites_47
+    21300096: wolfSprites_48
+    21300098: wolfSprites_49
+    21300100: wolfSprites_50
+    21300102: wolfSprites_51
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -34,7 +86,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -58,9 +110,589 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: wolfSprites_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 476
+        width: 90
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 476
+        width: 78
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 476
+        width: 93
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_3
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 476
+        width: 65
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_4
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 476
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_5
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 476
+        width: 67
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_6
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 476
+        width: 79
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_7
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 380
+        width: 75
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_8
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 380
+        width: 82
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 380
+        width: 76
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_10
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 380
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_11
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 380
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_12
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 380
+        width: 59
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_13
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 380
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_14
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 288
+        width: 65
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_16
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 287
+        width: 76
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_17
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 287
+        width: 75
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_18
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 287
+        width: 75
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_19
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 287
+        width: 76
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_20
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 288
+        width: 78
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_25
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 202
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_26
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 202
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_27
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 202
+        width: 66
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_28
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 202
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_29
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 202
+        width: 68
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_33
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 203
+        width: 97
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_34
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 111
+        width: 65
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_35
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 111
+        width: 68
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_36
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 111
+        width: 70
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_37
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 111
+        width: 104
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_38
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 111
+        width: 79
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_39
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 111
+        width: 50
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_40
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 111
+        width: 73
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_41
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 111
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_42
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 111
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_43
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 11
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_44
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 11
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_45
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 11
+        width: 71
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_46
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 11
+        width: 79
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_47
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 11
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_48
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 11
+        width: 60
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_49
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 11
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_50
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 11
+        width: 66
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wolfSprites_51
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 11
+        width: 66
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
