@@ -19,12 +19,10 @@ public class PlayerControl : MonoBehaviour {
 
     public void SaveToGlobal()
     {
-        Debug.Log(Char.GetComponent<SpriteRenderer>().sprite);
+        //Debug.Log(Char.GetComponent<SpriteRenderer>().sprite);
         GlobalCharacterControl.Instance.Character.GetComponent<SpriteRenderer>().sprite = Char.GetComponent<SpriteRenderer>().sprite;
-        Debug.Log(GlobalCharacterControl.Instance.Character.GetComponent<SpriteRenderer>().sprite);
-        Debug.Log(GlobalCharacterControl.Instance);
-        GlobalCharacterControl.Instance.tester = 5;
-        //DontDestroyOnLoad(GlobalCharacterControl.Instance.Char);
+        //Debug.Log(GlobalCharacterControl.Instance.Character.GetComponent<SpriteRenderer>().sprite);
+        //Debug.Log(GlobalCharacterControl.Instance);
     }
 
 }
