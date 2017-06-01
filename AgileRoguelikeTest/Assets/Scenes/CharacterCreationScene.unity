@@ -245,9 +245,13 @@ MonoBehaviour:
   image: {fileID: 353424831}
   player: {fileID: 1887652787}
   sprite1: {fileID: 21300002, guid: 1cca19ec8c87cf341905e884d3298254, type: 3}
-  sprite2: {fileID: 21300020, guid: 1cca19ec8c87cf341905e884d3298254, type: 3}
-  sprite3: {fileID: 21300104, guid: 1cca19ec8c87cf341905e884d3298254, type: 3}
-  sprite4: {fileID: 21300110, guid: 1cca19ec8c87cf341905e884d3298254, type: 3}
+  sprite2: {fileID: 21300104, guid: 1cca19ec8c87cf341905e884d3298254, type: 3}
+  sprite3: {fileID: 21300110, guid: 1cca19ec8c87cf341905e884d3298254, type: 3}
+  sprite4: {fileID: 21300020, guid: 1cca19ec8c87cf341905e884d3298254, type: 3}
+  player1: {fileID: 9100000, guid: 48296f9496bb33740a9a3e80d5159c4b, type: 2}
+  player2: {fileID: 22100000, guid: 96b7cfd00a1008e4a928fa49ac29f9a0, type: 2}
+  player3: {fileID: 22100000, guid: a8ef37fc3589c744c894034de442c6a4, type: 2}
+  player4: {fileID: 22100000, guid: c38e3a51aa15bcc4fab26704a7c3b8e7, type: 2}
 --- !u!1 &30170573
 GameObject:
   m_ObjectHideFlags: 0
@@ -560,7 +564,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -612.49994, y: 50}
+  m_AnchoredPosition: {x: -612.50006, y: 50}
   m_SizeDelta: {x: -1375, y: -500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &511348491
@@ -889,6 +893,19 @@ Prefab:
       propertyPath: Character
       value: 
       objectReference: {fileID: 768909327}
+    - target: {fileID: 4802878978049934, guid: e47ade6b58cd37c489fb61e0a039a22b, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4802878978049934, guid: e47ade6b58cd37c489fb61e0a039a22b, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 212946189653335324, guid: e47ade6b58cd37c489fb61e0a039a22b,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e47ade6b58cd37c489fb61e0a039a22b, type: 2}
   m_IsPrefabParent: 0
@@ -897,6 +914,23 @@ GameObject:
   m_PrefabParentObject: {fileID: 1471335079206402, guid: e47ade6b58cd37c489fb61e0a039a22b,
     type: 2}
   m_PrefabInternal: {fileID: 768909326}
+--- !u!95 &768909328
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 768909327}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 48296f9496bb33740a9a3e80d5159c4b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1277166139
 GameObject:
   m_ObjectHideFlags: 0
@@ -1285,6 +1319,7 @@ GameObject:
   - component: {fileID: 1887652788}
   - component: {fileID: 1887652789}
   - component: {fileID: 1887652790}
+  - component: {fileID: 1887652791}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1357,6 +1392,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Char: {fileID: 1887652787}
+  animator: {fileID: 0}
+--- !u!95 &1887652791
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1887652787}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &2060692012
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,10 +6,11 @@ public class PlayerControl : MonoBehaviour {
 
     [SerializeField]
     public GameObject Char;
+    public Animator animator;
 
-	// Use this for initialization
-	void Start () {
-        Char.GetComponent<SpriteRenderer>().sprite = GlobalCharacterControl.Instance.Character.GetComponent<SpriteRenderer>().sprite;
+    // Use this for initialization
+    void Start () {
+        Char.GetComponent<Animator>().runtimeAnimatorController = GlobalCharacterControl.Instance.Character.GetComponent<Animator>().runtimeAnimatorController;
 	}
 	
 	// Update is called once per frame
@@ -19,12 +20,10 @@ public class PlayerControl : MonoBehaviour {
 
     public void SaveToGlobal()
     {
-        Debug.Log(Char.GetComponent<SpriteRenderer>().sprite);
-        GlobalCharacterControl.Instance.Character.GetComponent<SpriteRenderer>().sprite = Char.GetComponent<SpriteRenderer>().sprite;
-        Debug.Log(GlobalCharacterControl.Instance.Character.GetComponent<SpriteRenderer>().sprite);
-        Debug.Log(GlobalCharacterControl.Instance);
-        GlobalCharacterControl.Instance.tester = 5;
-        //DontDestroyOnLoad(GlobalCharacterControl.Instance.Char);
+        //Debug.Log(Char.GetComponent<SpriteRenderer>().sprite);
+        GlobalCharacterControl.Instance.Character.GetComponent<Animator>().runtimeAnimatorController = Char.GetComponent<Animator>().runtimeAnimatorController;
+        //Debug.Log(GlobalCharacterControl.Instance.Character.GetComponent<SpriteRenderer>().sprite);
+        //Debug.Log(GlobalCharacterControl.Instance);
     }
 
 }

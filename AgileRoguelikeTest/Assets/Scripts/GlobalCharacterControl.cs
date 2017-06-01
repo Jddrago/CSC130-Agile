@@ -7,11 +7,10 @@ public class GlobalCharacterControl : MonoBehaviour {
     public static GlobalCharacterControl Instance;
     [SerializeField]
     public GameObject Character;
-    public int tester;
+    public Animator animator;
 
     void Awake()
     {
-        Debug.Log(Instance);
         if (Instance == null)
         {
             DontDestroyOnLoad(gameObject);
@@ -19,7 +18,6 @@ public class GlobalCharacterControl : MonoBehaviour {
         }
         else if (Instance != this)
         {
-            Debug.Log(Character.GetComponent<SpriteRenderer>().sprite);
             Destroy(gameObject);
         }
     }
