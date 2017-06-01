@@ -7,6 +7,7 @@ public class GlobalCharacterControl : MonoBehaviour {
     public static GlobalCharacterControl Instance;
     [SerializeField]
     public GameObject Character;
+    public Animator animator;
 
     void Awake()
     {
