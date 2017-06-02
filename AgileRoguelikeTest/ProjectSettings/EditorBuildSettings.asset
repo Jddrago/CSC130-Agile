@@ -13,13 +13,13 @@ EditorBuildSettings:
     guid: 76ffe63988815de4bafd1dd2d489eaa3
   - enabled: 1
     path: Assets/Scenes/DemoChar.unity
-    guid: 00000000000000000000000000000000
+    guid: 8984ea2f3f8760148af8fb19a5eb5677
   - enabled: 0
-    path: Assets/StartingMenuScene.unity
+    path: 
     guid: 5fb04999a497f2f4eba55fed058afb21
   - enabled: 0
-    path: Assets/CharacterCreationScene.unity
+    path: 
     guid: 16ee6ed4f4b64924c994877faacde7c7
   - enabled: 0
-    path: Assets/DemoChar.unity
+    path: 
     guid: 09f9dff5da976c84c8c6b7b68a0ada99

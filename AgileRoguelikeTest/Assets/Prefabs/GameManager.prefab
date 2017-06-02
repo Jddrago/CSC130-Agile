@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1806819400030244}
+  m_IsPrefabParent: 1
+--- !u!1 &1806819400030244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4984927483283254}
+  - component: {fileID: 114929050500047660}
+  - component: {fileID: 114904163470197734}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4984927483283254
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1806819400030244}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1000, y: 1000, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114904163470197734
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1806819400030244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f661488eccb323f4a833f147ceac99a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  columns: 8
+  rows: 8
+  wallCount:
+    minimun: 5
+    maximum: 9
+  exit: {fileID: 1296098345229892, guid: 3b9f4a1c9bedf994e814b76cf15ea7d1, type: 2}
+  floorTiles:
+  - {fileID: 1263507298449716, guid: 45125531b13dfc443af15ad33488104a, type: 2}
+  wallTiles:
+  - {fileID: 1098534783634556, guid: d0e863ff09c317e40bac7c409a6326b5, type: 2}
+  enemyTiles:
+  - {fileID: 1226331202884684, guid: ac54ef716308a4240957cbb29f00b5cb, type: 2}
+  outerWallTiles:
+  - {fileID: 1098534783634556, guid: d0e863ff09c317e40bac7c409a6326b5, type: 2}
+--- !u!114 &114929050500047660
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1806819400030244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb7b0a0ecfe25a246a0640d61c06db99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnDelay: 0.1
+  boardScript: {fileID: 114904163470197734}
+  playersTurn: 1
+  level: 1
