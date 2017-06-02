@@ -33,7 +33,7 @@ public class BoardManager : MonoBehaviour
     private Transform boardHolder;
     private List<Vector3> gridPositions = new List<Vector3>();
 
-    void InitaliseList()
+    void InitalizeList()
     {
         gridPositions.Clear();
         for (int x = 1; x < columns - 1; x++)
@@ -85,7 +85,7 @@ public class BoardManager : MonoBehaviour
         
     {
         BoardSetup();
-        InitaliseList();
+        InitalizeList();
         LayoutObjectAtRandom(wallTiles, wallCount.minimun, wallCount.maximum);
         
         int enemyCount = (int)Mathf.Log(level,2f);

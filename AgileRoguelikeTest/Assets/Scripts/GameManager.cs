@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
 
@@ -12,6 +13,7 @@ public class GameManager : MonoBehaviour {
     public int level = 3;
     private List<Enemy> enemies;
     private bool enemiesMoving;
+    public Text DeathText;
 
 
 	// Use this for initialization
@@ -39,8 +41,10 @@ public class GameManager : MonoBehaviour {
     }
     public void GameOver()
     {
+        DeathText.enabled = true;
         enabled = false;
     }
+
 	// Update is called once per frame
 	void Update ()
     {

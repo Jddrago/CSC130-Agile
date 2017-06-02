@@ -3,22 +3,33 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Player : MovingObject {
 
     private Animator animator;
     public float restartLevelDelay = 1;
     private int playerHP = 10;
+    public Text PlayerHealthText;
 
     protected override void OnCantMove<T>(T component)
     {
-            Wall hitwall = component as Wall;
-            hitwall.DamageWall(baseDamage);
+        if (component.tag == "Enemy")
+        {
+            Enemy hitEnemy = component as Enemy;
+            hitEnemy.DamageEnemy(baseDamage);
+        }
+        else
+        {
+            Wall hitWall = component as Wall;
+            hitWall.DamageWall(baseDamage);
+        }
     }
 
     // Use this for initialization
     protected override void Start () {
         animator = GetComponent<Animator>();
+        PlayerHealthText.text = "HP: " + playerHP;
         base.Start();
 	}
 
@@ -40,11 +51,16 @@ public class Player : MovingObject {
         if (horizontal != 0)
         {
             vertical = 0;
+            if (horizontal < 0) { animator.SetTrigger("walkWest"); }
+            else if (horizontal > 0) { animator.SetTrigger("walkEast"); }
         }
         if (horizontal != 0 || vertical != 0)
         {
+            if (horizontal == 0 && vertical < 0) { animator.SetTrigger("walkSouth"); }
+            else if (horizontal == 0 && vertical > 0) { animator.SetTrigger("walkNorth"); }
             AttempedMove<Wall>(horizontal, vertical);
         }
+        animator.SetTrigger("Idle");
     }
 
     private void Restart()
@@ -64,6 +80,7 @@ public class Player : MovingObject {
     public void DamagePlayer(int loss)
     {
         playerHP -= loss;
+        PlayerHealthText.text = "HP: " + playerHP;
         CheckForGameOver();
     }
 

@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 61941781578504982}
   - component: {fileID: 50151224834120334}
   - component: {fileID: 114988041751169722}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: wolfSprites_0
   m_TagString: Enemy
   m_Icon: {fileID: 0}
