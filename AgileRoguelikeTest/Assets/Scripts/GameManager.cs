@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour {
     public static GameManager instance = null;
     public BoardManager boardScript;
-
+    [HideInInspector] public bool playersTurn = true;
     private int level = 50;
 	// Use this for initialization
 	void Awake ()
@@ -19,13 +19,15 @@ public class GameManager : MonoBehaviour {
         boardScript = GetComponent<BoardManager>();
         InitGame();
 	}
-
     void InitGame()
     {
         boardScript.SetupScene(level);
 
     }
-	
+    public void GameOver()
+    {
+        enabled = false;
+    }
 	// Update is called once per frame
 	void Update ()
     {
