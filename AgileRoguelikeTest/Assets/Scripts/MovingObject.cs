@@ -8,8 +8,9 @@ public abstract class MovingObject : MonoBehaviour {
     private BoxCollider2D boxCollider;
     private Rigidbody2D rb2D;
     private float inverseMoveTime;
-	// Use this for initialization
-	protected virtual void Start ()
+    public int baseDamage = 1;
+    // Use this for initialization
+    protected virtual void Start ()
     {
         boxCollider = GetComponent<BoxCollider2D>();
         rb2D = GetComponent<Rigidbody2D>();
