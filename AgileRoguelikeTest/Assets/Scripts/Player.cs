@@ -98,7 +98,8 @@ public class Player : MovingObject {
     {
         if (playerHP <= 0)
         {
-            GameManager.instance.GameOver();
+            GlobalCharacterControl.Instance.playerHP = 10;
+            SceneManager.LoadScene(0);
         }
     }
 }

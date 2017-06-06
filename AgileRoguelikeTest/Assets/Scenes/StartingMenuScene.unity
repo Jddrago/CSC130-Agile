@@ -2155,7 +2155,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Stuff
+  m_Text: 'W,A,S,D: Move character.'
 --- !u!222 &1858781089
 CanvasRenderer:
   m_ObjectHideFlags: 0
