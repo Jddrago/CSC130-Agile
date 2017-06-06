@@ -10,8 +10,8 @@ public class GameManager : MonoBehaviour {
     public static GameManager instance = null;
     public BoardManager boardScript;
     [HideInInspector] public bool playersTurn = true;
-    public int level = 3;
-    private List<Enemy> enemies;
+    public static int level = 1;
+    private static List<Enemy> enemies;
     private bool enemiesMoving;
     public Text DeathText;
 
@@ -79,10 +79,11 @@ public class GameManager : MonoBehaviour {
 
     void Start()
     {
+        //level++;
+        //Debug.Log("");
         SceneManager.sceneLoaded += delegate (Scene scene, LoadSceneMode mode)
         {
             level++;
-            InitGame();
         };
     }
 }

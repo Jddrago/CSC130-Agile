@@ -22,16 +22,25 @@ public class Player : MovingObject {
         else
         {
             Wall hitWall = component as Wall;
-            hitWall.DamageWall(baseDamage);
+            if(hitWall.tag != "OuterWall")
+            {
+                hitWall.DamageWall(baseDamage);
+            }
         }
     }
 
     // Use this for initialization
     protected override void Start () {
         animator = GetComponent<Animator>();
+        playerHP = GlobalCharacterControl.Instance.playerHP;
         PlayerHealthText.text = "HP: " + playerHP;
         base.Start();
 	}
+
+    public void SaveToGlobal()
+    {
+        GlobalCharacterControl.Instance.playerHP = playerHP;
+    }
 
     protected override void AttempedMove<T>(int xDir, int yDir)
     {
@@ -61,6 +70,7 @@ public class Player : MovingObject {
             AttempedMove<Wall>(horizontal, vertical);
         }
         animator.SetTrigger("Idle");
+        SaveToGlobal();
     }
 
     private void Restart()

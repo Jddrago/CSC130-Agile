@@ -8,6 +8,7 @@ public class GlobalCharacterControl : MonoBehaviour {
     [SerializeField]
     public GameObject Character;
     public Animator animator;
+    public int playerHP = 10;
 
     void Awake()
     {
